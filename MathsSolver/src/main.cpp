@@ -12,5 +12,8 @@ int main() {
 	std::cout << std::endl;
 	std::cout << expr.Evaluate() << std::endl;
 
+	std::cout << "\nEnter 'Enter' key to exit.";
+	std::getline(std::cin, equ);
+
 	return EXIT_SUCCESS;
 }
